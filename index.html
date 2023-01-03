@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,7 +27,7 @@ body {
   max-width: 480px;
   margin: auto;
   background-color: white;
-  height: 500px;
+  height:auto;
   color: blue;
   border-radius: 10px;
 }
@@ -36,7 +35,6 @@ body {
     color:blue;
 }
 }
-
 
 .topnav {
   overflow: hidden;
@@ -96,7 +94,7 @@ hr{
 .td{
   margin-right: 5px;
    margin-left: 5PX;
-width:contain ;
+clear:both;
 } 
 .td h2{
     font-weight:bold;
@@ -104,12 +102,12 @@ width:contain ;
     animation-name: colorchange;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    text-align: center;
       
 }
 .td li{
     padding:10px;
-font-size:12PX;
-
+font-size:22PX;
 }
 .b{
     margin-top:50px;
@@ -121,21 +119,20 @@ font-size:12PX;
 
 /** ct**/
 .ct{
+clear:both;
   margin-right: 5px;
    margin-left: 5PX;
-width:contain ;
 }
 .ct h2{
     font-weight:bold;
     animation-name: colorchange;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-      
+   text-align: center;   
 }
 .ct li{
     padding:10px;
-font-size:12PX;
-width: contain;
+font-size:22PX;
 }
 
 
@@ -144,7 +141,7 @@ button{
     background:blue;
     color:white;
     padding:5px;
-    font-size:7px; 
+    font-size:12px; 
     border-radius:5px;
 }
 img{
@@ -157,10 +154,7 @@ img{
 }
 #list{
   display: none;
-   background:whitesmoke;
-    border-radius:9px; 
-    color:blue;
-margin:7px;
+    margin: 7px;
 }
 .sales{
   background-color: darkblue;
@@ -174,25 +168,31 @@ margin:7px;
 .active{
   text-align: center;
 }
+.cent{
+    height 70%;
+    padding: 4px;
+    margin: 2px;
+}
 .cent img{
-  
-   
+  float:right;
+    width: 40%;
+    
 
   }
   .cent{
     padding: 4px;
-    margin: 9px;
- width:700px;
+    float: right;
   }
   #list2{
     display: none;
+    margin: 7px;
   }
   @keyframes colorchange{0%{color: orange; } 25%{color:blue;} 50%{color: red;}100%{color:black;}}
 
 
 
 .arrow{
-  float: right;
+  
 }
 
 .social a{
@@ -206,6 +206,7 @@ margin:7px;
 }  
 .divi { 
     color:white;
+    
     font-size:13px;
     padding:20px;
     background-color:black;
@@ -221,6 +222,37 @@ margin:7px;
 .fess h2{
   color: gold;
 }
+.social a{
+    float:right ;
+    color:black;
+    font-size:20px;
+    width:10%;
+    padding-left:5px;
+    padding-top:15px;
+     background-color: whitesmoke ;
+}  
+footer { 
+
+    color:black;
+    font-size:20px;
+    padding:10px;
+    background-color: whitesmoke ;
+    height:250px;
+    }
+
+.grdt{
+    font-size:12px;
+    color:orange;
+}
+
+
+  .og{
+      text-decoration:underline ;
+      color:deepskyblue; 
+      font-weight:bold ;
+      font-size:22px;
+  }
+
 
 
 
@@ -248,20 +280,26 @@ margin:7px;
   </a>
 </div> 
 </div>
+
 <div class="b"> 
 <a><i class="fas fa-verified"></i> Bet responsibly</a>
 </div>
-<div class="cent"> 
-<img name="slide" width="200" height="150">  <img name="slide" width="200" height="150">
+
+<div class ="cent">
+    <img name="slide" width="40%">  <img name="slide" width="40%" height="70%" >
 </div>
+
+
 <div style="padding-left:16px" class="td">
 
   <h2 onclick="today()" class="h2"><i class="fab fa-playstation"></i>Today Games  <b class="arrow"> <i class="fa fa-angle-double-down"></i> </b></h2>
   
 <div id="list">
-<ul>
-    <li><a href="next.html" id="copy">BSYTQRTF... Msports</a> <button class="w3-btn w3-blue " onclick="miFunction()">copy</button></li>
-    <li><a href="next.html" id="copy">BSYTQRTF... Sporty bet</a> <button class="w3-btn w3-blue " onclick="miFunction()">copy</button></li>
+  <ul>
+    <li><a href="next.html" id="copy">BSYTQRTF... Msports</a> </li>
+
+    <li><a href="next.html" id="copy">BSYTQRTF... Sporty bet</a> 
+    </li>
 
     </ul>
   </div>
@@ -270,38 +308,38 @@ margin:7px;
 <p>Stake low for simple wins</p>
 
 </div>
-<br>
-<hr>
-<div class="cent"> 
-<img name="slide" width="200" height="150"> <img name="slide" width="200" height="150">
+<div class ="cent">
+    <img name="slide" width="40%">  <img name="slide" width="40%" height="70%" >
 </div>
-<br>
-<hr>
-<div style="padding-left:16px" class="ct">
 
+<hr>
+<br/>
+
+<div style="padding-left:16px" class="ct">
   <h2 onclick="ext()" class="h2"><i class="fab fa-playstation"></i>Extended Games  <b class="arrow"> <i class="fa fa-angle-double-down"></i> </b></h2>  
 <div id="list2">
-<ul>
-    <li><a href="next.html">facebook dating accounts</a> <button class="w3-btn w3-blue ">copy</button></li>
-    <li><a href="next.html">facebook dating accounts</a> <button class="w3-btn w3-blue ">copy</button></li>  </ul>
+  <ul>
+    <li><a href="next.html" id="copy">BSYTQRTF... Msports</a> 
+</li>
+
+    <li><a href="next.html" id="copy">BSYTQRTF... Sporty bet</a> </li>
+
+    </ul>
   </div>
-<p>Contains bet id's of today's games. play each game with a cashout idea.</p>
-<p>Stake high for high cashouts</p>
+
 <p>Stake low for simple wins</p>
 </div>
-    
-<!-- End smartphone / tablet look -->
+ 
+<br/>
+
+<footer> 
+
+<div>
+    <h2>STALUCK</h2>
+    <p>Stats always matter</p>
+   <p>Stats always matter</p>
+   <p>Stats always matter</p> 
 </div>
-
-<br>
-
-<footer class="divi"> 
-  
-  <div class="fess">
-    <h2>Foresight</h2>
-    <p>Players must be 18 or above to be able to play</p>
-    <p>copywright is prohibited</p>
-  </div>
 <div class="social"> 
             <a href="https://wa.me/+2348035527091 " target="_blank">
                 <div class = "icon">
@@ -315,29 +353,25 @@ margin:7px;
                  </div>
              </a>
               
-            <a href=" https://www.linkedin.com/mwlite/in/nuel-agafie-5983b41b5" target="_blank">
-                <div class = "icon">
-                    <span style="padding-left:5px;"></span>
-                  <div class="fab fa-linkedin"></div>
-                </div>
-             </a>
-             <a href=" https://discord.gg/b2BH8cSH" target="_blank">
+            <a href=" https://github.com/Nozel-silva" target="_blank">
                 <div class = "icon">
                     <span style="padding-left:5px;"></span>
                   <div class="fab fa-github"></div>
                 </div>
              </a>
+             <a href=" https://discord.gg/b2BH8cSH" target="_blank">
+                <div class = "icon">
+                    <span style="padding-left:5px;"></span>
+                  <div class="fab fa-discord"></div>
+                </div>
+             </a>
              
         </div>
-        <div class="grdt"> 
-        <a href="#"> Nozel-silva @2022</a> | <a href=" Services.html">Terms of services</a>
-        </div>
-        </div>
         
-       </footer> 
+        </div>
+       
 
-
-
+</footer>
 
 
 
@@ -391,13 +425,40 @@ alert("copied to clipboard!!!!!:" + copytext.value);
 
 
 
+
 }
 
 </script>
 
 
-<script type="text/javascript" src=" sly.js">
+<script type="text/javascript">
   //slider
+var i=0;
+  var images=[];
+  var time =3000;
+
+  //image list
+  images[0]='b1.jpg';
+  images[1]='b2.jpg';
+  images[2]='b3.jpg';
+  images[3]='b4.jpg';
+
+
+  //change images
+  function changeimg(argument) {
+    // body...
+    document.slide.src=images[i];
+    
+    if (i< images.length - 1) {
+      i++;
+    }
+    else{
+      i=0;
+    }
+    setTimeout("changeimg()",time);
+  }
+  window.onload = changeimg;
+
 
 
 
